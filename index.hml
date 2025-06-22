@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chandak Electricals</title>
+  <style>
+    body {
+      font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+    header {
+      background-color: #002f6c;
+      padding: 30px;
+      text-align: center;
+      color: white;
+    }
+    header img {
+      max-width: 100px;
+    }
+    nav {
+      background-color: #014080;
+      padding: 12px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 18px;
+      font-weight: 500;
+      font-size: 1.05rem;
+    }
+    section {
+      padding: 50px 30px;
+      max-width: 1000px;
+      margin: auto;
+      background-color: white;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+    h2 {
+      color: #014080;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    p, li {
+      font-size: 1.05rem;
+      color: #444;
+    }
+    ul {
+      padding-left: 20px;
+      line-height: 1.8;
+    }
+    footer {
+      background-color: #002f6c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+    .contact {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .contact div {
+      margin: 10px;
+      min-width: 220px;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="logo final.png" alt="Chandak Electricals Logo" />
+    <h1>CHANDAK ELECTRICALS</h1>
+    <p>Energizing Infrastructure. Engineering Excellence.</p>
+  </header>
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#products">Product Range</a>
+    <a href="#dealership">Dealerships</a>
+    <a href="#why">Why Choose Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      With over 50 years of proven legacy, Chandak Electricals is a hallmark of trust, commitment, and engineering precision in the electrical industry. Based in Nagpur, we are a leading supplier and contractor serving across two core verticals: <strong>electrical product supply</strong> and <strong>turnkey electrical contracting</strong>.
+    </p>
+    <p>
+      We have successfully delivered quality-driven services for residential, commercial, and industrial applications. Our team combines years of field experience with strong technical know-how to deliver end-to-end solutions—from product procurement and consultation to execution and after-sales support.
+    </p>
+    <p>
+      We prioritize <strong>transparency, trust, and timely delivery</strong> in every client interaction. Our loyal customer base, built through consistent service, speaks volumes of the values we uphold—precision, professionalism, and personal connection.
+    </p>
+    <p>
+      Whether it's powering critical infrastructure or lighting up homes, Chandak Electricals continues to serve with the same spirit of excellence, reliability, and innovation that shaped our journey since day one.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li><strong>Complete electrical contracting and turnkey MEP projects</strong>: design, supply, installation, and commissioning.</li>
+      <li><strong>Transmission & distribution line works</strong>: overhead and underground cabling, pole erection, termination, and energization.</li>
+      <li><strong>Electrical product supply</strong>: from everyday materials to high-power industrial components.</li>
+    </ul>
+  </section>
+
+  <section id="products">
+    <h2>Our Product Range</h2>
+    <ul>
+      <li>Lighting solutions</li>
+      <li>Wires & cables</li>
+      <li>Industrial & domestic switchgear</li>
+      <li>Mancoolers & industrial fans</li>
+      <li>Cable management accessories</li>
+      <li>Control & protection devices</li>
+      <li>Electrical accessories</li>
+    </ul>
+  </section>
+
+  <section id="dealership">
+    <h2>Dealership Network</h2>
+    <p>We are proud to be authorized dealers for the following reputed brands:</p>
+    <ul>
+      <li>Surya</li>
+      <li>Dowells</li>
+      <li>Gloster</li>
+      <li>Polycab</li>
+      <li>Aster</li>
+      <li>Syska LED</li>
+      <li>C&S Electric</li>
+      <li>Schneider Electric</li>
+      <li>Siemens</li>
+      <li>Orient Electric</li>
+    </ul>
+  </section>
+
+  <section id="why">
+    <h2>Why Choose Us</h2>
+    <ul>
+      <li><strong>Decades of Trust:</strong> Over 50 years of industry legacy with consistent performance and reputation.</li>
+      <li><strong>Turnkey Expertise:</strong> Comprehensive end-to-end solutions from supply to installation and commissioning.</li>
+      <li><strong>Authorized Dealership:</strong> Reliable sourcing from top-tier manufacturers and electrical brands.</li>
+      <li><strong>Technical Team:</strong> Skilled professionals ensuring project execution with safety, precision, and timelines.</li>
+      <li><strong>Customer-Centric Approach:</strong> Strong after-sales service, transparent dealings, and timely delivery.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact">
+      <div>
+        <strong>Rajesh Chandak</strong><br />
+        CEO & Managing Director<br />
+        +91 9422147197
+      </div>
+      <div>
+        <strong>Nikhilesh Chandak</strong><br />
+        B.Tech (Electrical), President<br />
+        +91 7588487197
+      </div>
+      <div>
+        <strong>Email:</strong> chandakelectricalsngp@gmail.com<br />
+        <strong>Address:</strong> Chandak Electricals, Mahal, Nagpur - 440018
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Chandak Electricals. All rights reserved.
+  </footer>
+</body>
+</html>
